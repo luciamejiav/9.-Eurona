@@ -1,0 +1,197 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.aling-items-center {
+    align-items: center;
+}
+
+header {
+    background-color: #63b4e1;
+
+}
+.bg-morado{
+    background-color: #652b77;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-morado {
+    color: #652b77;
+}
+
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+    position: relative;
+    list-style-type: none;
+    padding: 16px;
+    color: white;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #e5e5e5;
+    width: 200px;
+}
+
+nav ul li ul li {
+    width: 200px;
+    color: black;
+}
+
+nav ul li:hover ul{
+    display: block;
+    margin-top: 16px;
+    z-index: 1; /*cuando usamos posicionamientos usamos esto para que salga*/
+}
+
+nav ul li:hover {
+    color: gray;
+}
+
+nav ul li ul li:hover {
+    color:  #63b4e1;
+}
+
+nav ul li a{
+    color: white;
+}
+
+nav ul li a:hover{
+    color: gray;
+}
+
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.mr-4 {
+    margin-right: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#careto{
+    background-image: url(../img/familia-pueblo-internet-eurona.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.bg-azul {
+    background-color:  #63b4e1;
+}
+
+.btn {
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+.btn-pink {
+    background-color: #eb358a;
+}
+
+.bg-grisc {
+    background-color: #f1f8fe;
+}
+
+.caja {
+    border-radius: 10px;
+    text-align: center;
+    padding: 14px;
+}
+
+input[type="tel"] {
+    border: none;
+    padding: 8px 16px;
+    width: 100%;
+}
+
+.caja h1, .caja h2 {
+    margin: 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.d-inline{
+    display: inline;
+}
+
+#careto img {
+    position: absolute; /*es como si estuviese superpuesto, por encima*/
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-100px);
+}
+
+.bg-gris {
+    background-color: gray;
+    color: black;
+}
+
+.titulo{
+    padding-top: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pd-right {
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
